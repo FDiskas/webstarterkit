@@ -1,3 +1,6 @@
+# WebStarterKit
+Ready to work. Docker with AZK, Bootstrap, angularjs, query, php, mysql, npm, grunt, bower and composer.
+
 Install [Docker](https://www.docker.com/) && [Azk.io](http://docs.azk.io/en/installation/)
 ```
 curl -sSL https://get.docker.com/ | sh
