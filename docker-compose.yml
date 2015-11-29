@@ -1,0 +1,23 @@
+data:
+    container_name: wsk_data
+    image: busybox
+    volumes:
+        - ${PWD}/app/cache:/var/www/app/cache
+        - ${PWD}/app/logs:/var/www/app/logs
+        - ${PWD}:/var/www
+
+web:
+    container_name: wsk_web
+    build: .
+    ports:
+        - "127.0.0.1:80:80"
+        - "127.0.0.1:443:443"
+    volumes_from:
+        - data
+    tty: true
+    environment:
+        APACHE_RUN_USER: www-data
+        APACHE_RUN_GROUP: www-data
+        NPM_RUN_GROUP: www-data
+    # apt-get -y update && apt-get install -y npm && npm upgrade -g npm && npm install -g gulp && npm install -g bower
+#    command: bash -c "npm install && composer install && bower install"

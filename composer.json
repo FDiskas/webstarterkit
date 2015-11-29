@@ -1,0 +1,14 @@
+{
+    "name": "webkit/starter",
+    "description": "A docker package for web development with grunt, bower, npm, php, apache and composer",
+    "type": "Docker",
+    "authors": [
+        {
+            "name": "Coders",
+            "email": "project+npm@gmail.com"
+        }
+    ],
+    "require": {},
+    "license": "ISC",
+    "minimum-stability": "alpha"
+}
