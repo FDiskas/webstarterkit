@@ -17,7 +17,7 @@
     "time-grunt": "~1.4.0",
     "grunt-contrib-less": "~1.4.0",
     "grunt-contrib-clean": "~1.0.0",
-    "bower": "~1.7.9"
+    "bower": "~1.8.0"
   },
   "engines": {
     "node": ">=0.10.0"
