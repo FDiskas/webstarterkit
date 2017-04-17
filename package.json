@@ -20,7 +20,7 @@
     "bower": "~1.7.9"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">= 4"
   },
   "private": true,
   "scripts": {
